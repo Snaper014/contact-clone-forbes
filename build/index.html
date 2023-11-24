@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annoncer sur Torbes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./js/index.js" async></script>
+</head>
+
+<body>
+    <header>
+      <div id="section-header-left">
+        <h1 id="title-Torbes">Torbes</h1>
+        <h2 class="section-header-title">Classements</h2>
+        <h2 class="section-header-title">Brandvoice</h2>
+        <h2 class="section-header-title">Bibiliothéque</h2>
+        <h2 id="title-Magazine" class="section-header-title">Magazine Torbes</h2>       
+      </div>
+      <div id="section-header-right">
+        <div id="section-header-search">
+            <div id="logo-search"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <input type="texte" id="searchbar" placeholder="Rechercher"></input>
+        </div>
+        <div id="section-header-logos">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div id="section-header-user">
+            <i class="fa-solid fa-user"></i>
+            <p>Club Torbes</p>
+        </div>
+    </div>
+    <div id="section-header-mobile-search">
+        <div id="mobile-logo-search"><i class="fa-solid fa-magnifying-glass"></i></div>
+        <input type="texte" id="mobile-searchbar" placeholder="Rechercher"></input>
+    </div>
+    <div id="mobile-second-container">
+        <div id="mobile-bars">
+            <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+        </div>
+        <div id="mobile-section-header-logos">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div id="mobile-section-header-user">
+            <i class="fa-solid fa-user"></i>
+            <p>Club Torbes</p>
+        </div>
+    </div>
+    </header>
+    <section id="container">
+       <div id="section-container-category">
+            <h3 class="category">Business</h3>
+            <h3 class="category">Technologie</h3>
+            <h3 class="category">Entrenpreneurs</h3>
+            <h3 class="category">Management</h3>
+            <h3 class="category">Finance</h3>
+            <h3 class="category">Environnement</h3>
+            <h3 class="category">lifestyle</h3>
+            <h3 class="category">Luxe</h3>
+            <h3 class="category">Femmes@Torbes</h3>
+       </div>
+       <form id="form">
+            <h1 id="title-form">Annoncer sur Torbes</h1>
+            <div id="container-formulaire">
+                <div class="section-formulaire">
+                    <select class="dimension-input">
+                        <option>Mlle</option>
+                        <option>Mme</option>
+                        <option>Mr</option>
+                    </select>
+                    <input id="firstname" class="dimension-input" type="text" placeholder='Prénom*' required></input>
+                    <span id="warning-firstname"></span>
+                    <input id="email" class="dimension-input" type="text" placeholder='E-mail*' required></input>
+                    <span id="warning-mail"></span>
+                    <input id="City" class="dimension-input" type="text" placeholder='Ville*' required></input>
+                    <span id="warning-city"></span>
+                    <input id="Subject" class="dimension-input" type="text" placeholder='Sujet*' required></input>
+                    <span id="warning-subject"></span>
+                    <label>Anti-spam : combien y a t-il de 'r' "dans Torbes France"? <span class="red">*</span></label>
+                    <input id="label-spam" class="dimension-input" type="text" required></input>
+                    <span id="warning-spam"></span>
+                    <div id="submit-form">
+                        <label class="submit-style">Accord RGPD <span class="red">*</span></label>
+                        <div>
+                            <input id="checkbox" type="checkbox"></input>
+                            <label class="submit-style"> J'ai lu la politique de confidentialités de Torbes</label>
+                        </div>
+                        <span id="warning-checked"></span>
+                        <button type="button" id="button-submit">Envoyer</button>
+                    </div>
+                </div>
+                <div class="section-formulaire">
+                    <input id="Name" class="dimension-input" type="text" placeholder='Nom*' required></input>
+                    <span id="warning-name"></span>
+                    <input id="Company" class="dimension-input" type="text" placeholder='Société*' required></input>
+                    <span id="warning-company"></span>
+                    <input id="NumberPhone" class="dimension-input" type="text" placeholder='+33...' required></input>
+                    <span id="warning-phone-number"></span>
+                    <select class="dimension-input">
+                        <option value="France">France</option>
+                        <option value="Cameroun">Cameroun</option>
+                        <option value="Costa Rica">Costa Rica</option>
+                        <option value="Belgique">Belgique</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Argentine">Argentine</option>
+                        <option value="Portugal">Portugal</option>
+                        <option value="Espagne">Espagne</option>
+                        <option value="Finlande">Finlande</option>
+                        <option value="Chine">Chine</option>
+                        <option value="Japon">Japon</option>
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Mexique">Mexique</option>
+                        <option value="Chili">Chili</option>
+                        <option value="Inde">Inde</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Mozambique">Mozambique</option>
+                        <option value="Zambie">Zambie</option>
+                        <option value="Pologne">Pologne</option>
+                        <option value="Allemagne">Allemagne</option>
+                        <option value="England">England</option>
+                        <option value="Autres">Autres</option>
+                    </select>
+                    <textarea id="message-input" placeholder="Message" minlength="1" maxlength="400" required></textarea>
+                    <span id="warning-text-area"></span>
+                    <button type="button" id="button-submit-mobile">Envoyer</button>
+                </div>
+            </div>
+       </form> 
+    </section>
+    <footer>
+        <div id="container-footer">
+            <div id="section-footer-one">
+                <h2 id="title-footer-torbes">Torbes</h2>
+                <h3 class="section-footer-category">Business</h3>
+                <h3 class="section-footer-category">Technologie</h3>
+                <h3 class="section-footer-category">Entrenpreneurs</h3>
+                <h3 class="section-footer-category">Management</h3>
+                <h3 class="section-footer-category">Finance</h3>
+                <h3 class="section-footer-category">Environnement</h3>
+                <h3 class="section-footer-category">lifestyle</h3>
+                <h3 class="section-footer-category">Luxe</h3>
+                <h3 class="section-footer-category">Femmes@Torbes</h3>
+            </div>
+            <div id="section-footer-two">
+                <div>
+                    <h2 class="section-footer-heading">Services et produits</h2>
+                    <p>Abonnement Magazine</p>
+                    <p>Brandvoice</p>
+                    <p>club Torbes</p>
+                </div>
+                <div>
+                    <h2 class="section-footer-heading">Newsletters</h2>
+                    <p>Newsletters Quotidiennes</p>
+                    <p>Newsletters Inmanquables</p>
+                </div>
+                <div>
+                    <h2 class="section-footer-heading">Mentions Légales</h2>
+                    <p>Condtion Générales d'utilisations</p>
+                    <p>Chartes d'utilisations</p>
+                    <p>Politique de confidentialités</p>
+                </div>
+                <div>
+                    <h2 class="section-footer-heading">Contact</h2>
+                    <p>Annoncer sur torbes</p>
+                    <p>Etre Contributeur sur Torbes</p>
+                    <p>Contacter la rédaction</p>
+                    <p>Contacter la technique</p>
+                    <p>Proposition de partenariat</p>
+                </div>
+            </div>
+            <div id="section-footer-three">
+                <p>360 Business est éditeur de Torbes.fr et OniriQ.fr</p>
+            </div>
+        </div>
+    </footer> 
+</body>
