@@ -21,6 +21,7 @@ let spanPhone = document.getElementById("warning-phone-number") as HTMLSpanEleme
 let spanMessage = document.getElementById("warning-text-area") as HTMLSpanElement;
 let spanChecked = document.getElementById("warning-checked") as HTMLSpanElement;
 
+
 const letters = /[0-9]/g;
 const CheckMail = /^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/g;
 const CheckPhone = /[0-9]{10}/g;

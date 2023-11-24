@@ -2,7 +2,7 @@
 
 Welcome to the Forbes Contact Page Clone Project! This application was developed using HTML, CSS, and JavaScript to faithfully reproduce the Forbes contact page. Here's a quick guide to help you understand and use clone.
 
-![Clone de la Page de Contact Forbes](/build/public/image-torbes.png)
+![Clone de la Page de Contact Forbes](/build/image/image-torbes.png)
 
 ## Live Demo
 
